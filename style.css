@@ -1,0 +1,66 @@
+body {
+	background: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: Helvetica;
+	font-size: 16px;
+	font-style: light;
+	color: black;
+	letter-spacing: 1px;
+	line-height: 22px;
+}
+
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: purple;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+img {
+	max-width:100%;
+  	padding-top: 50px;
+}
+
+.main-container {
+	width: 100%;
+  max-width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+
+.text {
+	padding-top: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+
+
+
+
+@media (max-width: 600px) {
+
+body {
+	background: white;
+	margin: 10px;
+}
